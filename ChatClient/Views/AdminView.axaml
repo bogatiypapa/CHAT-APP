@@ -1,0 +1,52 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="ChatClient.Views.AdminView">
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,*" ColumnDefinitions="*,*">
+        
+        <!-- Заголовок -->
+        <TextBlock Grid.ColumnSpan="2" Text="Администрирование" FontSize="20" Margin="10" HorizontalAlignment="Center"/>
+
+        <!-- Список пользователей -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="10">
+            <TextBlock Text="Пользователи" FontWeight="Bold"/>
+            <ListBox ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser}" Height="150"/>
+            <Button Content="Удалить выбранного" Command="{Binding DeleteUserCommand}" Margin="0,5"/>
+        </StackPanel>
+
+        <!-- Подписки/Подписчики -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
+            <TextBlock Text="Подписки и подписчики" FontWeight="Bold"/>
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <Button Content="Показать подписки" Command="{Binding LoadSubscriptionsCommand}" Margin="0,0,5,0"/>
+                <Button Content="Показать подписчиков" Command="{Binding LoadSubscribersCommand}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <StackPanel>
+                    <TextBlock Text="Подписки"/>
+                    <ListBox ItemsSource="{Binding Subscriptions}" Height="100"/>
+                </StackPanel>
+                <StackPanel Margin="10,0,0,0">
+                    <TextBlock Text="Подписчики"/>
+                    <ListBox ItemsSource="{Binding Subscribers}" Height="100"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Добавление/Удаление подписки -->
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Margin="10">
+            <TextBlock Text="Управление подписками" FontWeight="Bold"/>
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <TextBlock Text="Подписчик:" VerticalAlignment="Center"/>
+                <TextBox Width="100" Margin="5,0" Text="{Binding NewSubscriber}"/>
+                <TextBlock Text="Цель:" VerticalAlignment="Center"/>
+                <TextBox Width="100" Margin="5,0" Text="{Binding NewTarget}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Добавить подписку" Command="{Binding AddSubscriptionCommand}" Margin="0,0,5,0"/>
+                <Button Content="Удалить подписку" Command="{Binding DeleteSubscriptionCommand}"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
