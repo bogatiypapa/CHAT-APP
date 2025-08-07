@@ -56,7 +56,7 @@ public class UserService
         var user = _db.Users.FirstOrDefault(u => u.Username == username);
         if (user != null)
         {
-            // Удаляем подписки, где он подписчик или цель
+            // Удаляем подписки, где пользователь подписчик или цель
             var relatedSubs = _db.Subscriptions
                 .Where(s => s.Subscriber == username || s.Target == username);
             _db.Subscriptions.RemoveRange(relatedSubs);

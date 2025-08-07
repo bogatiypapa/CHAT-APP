@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g5OnDJFjUoU=",
+  "dgSpecHash": "t7Az0ra3Ks0=",
   "success": true,
-  "projectFilePath": "/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/ChatClient.csproj",
+  "projectFilePath": "/Users/hug/VSC_projects/Chat/ChatClient/ChatClient.csproj",
   "expectedPackageFiles": [
     "/Users/hug/.nuget/packages/avalonia/11.0.6/avalonia.11.0.6.nupkg.sha512",
     "/Users/hug/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

@@ -30,7 +30,7 @@ namespace ChatClient.Views
 
                     await connection.StartAsync();
                     await connection.InvokeAsync("Register", u);
-                    await connection.StopAsync(); // сразу можно закрыть соединение
+                    await connection.StopAsync(); 
                 }
                 catch (Exception ex)
                 {

@@ -80,7 +80,7 @@ namespace ChatClient.ViewModels
             });
 
 
-            _ = ConnectAsync(); // запускаем без await
+            _ = ConnectAsync();
         }
 
         private async Task ConnectAsync()

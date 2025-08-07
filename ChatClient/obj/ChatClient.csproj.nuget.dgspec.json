@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/ChatClient.csproj": {}
+    "/Users/hug/VSC_projects/Chat/ChatClient/ChatClient.csproj": {}
   },
   "projects": {
-    "/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/ChatClient.csproj": {
+    "/Users/hug/VSC_projects/Chat/ChatClient/ChatClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/ChatClient.csproj",
+        "projectUniqueName": "/Users/hug/VSC_projects/Chat/ChatClient/ChatClient.csproj",
         "projectName": "ChatClient",
-        "projectPath": "/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/ChatClient.csproj",
+        "projectPath": "/Users/hug/VSC_projects/Chat/ChatClient/ChatClient.csproj",
         "packagesPath": "/Users/hug/.nuget/packages/",
-        "outputPath": "/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/obj/",
+        "outputPath": "/Users/hug/VSC_projects/Chat/ChatClient/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/NuGet.Config",
+          "/Users/hug/VSC_projects/Chat/ChatClient/NuGet.Config",
           "/Users/hug/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [

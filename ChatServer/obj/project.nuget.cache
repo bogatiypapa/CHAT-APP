@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mp0tTwayHLc=",
+  "dgSpecHash": "9BCBHMmwoXA=",
   "success": true,
-  "projectFilePath": "/Users/hug/VSC_projects/ChatSolution1.51/ChatServer/ChatServer.csproj",
+  "projectFilePath": "/Users/hug/VSC_projects/Chat/ChatServer/ChatServer.csproj",
   "expectedPackageFiles": [
     "/Users/hug/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/hug/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

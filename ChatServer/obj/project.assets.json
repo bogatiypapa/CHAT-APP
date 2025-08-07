@@ -4184,11 +4184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hug/VSC_projects/ChatSolution1.51/ChatServer/ChatServer.csproj",
+      "projectUniqueName": "/Users/hug/VSC_projects/Chat/ChatServer/ChatServer.csproj",
       "projectName": "ChatServer",
-      "projectPath": "/Users/hug/VSC_projects/ChatSolution1.51/ChatServer/ChatServer.csproj",
+      "projectPath": "/Users/hug/VSC_projects/Chat/ChatServer/ChatServer.csproj",
       "packagesPath": "/Users/hug/.nuget/packages/",
-      "outputPath": "/Users/hug/VSC_projects/ChatSolution1.51/ChatServer/obj/",
+      "outputPath": "/Users/hug/VSC_projects/Chat/ChatServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hug/.nuget/NuGet/NuGet.Config"

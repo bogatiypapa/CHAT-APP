@@ -27,7 +27,7 @@ namespace ChatClient.Views
 
             if (!string.IsNullOrWhiteSpace(username))
             {
-                // Зарегистрировать пользователя на сервере (в БД, offline)
+                
                 using var http = new HttpClient();
                 var url = $"http://localhost:5000/api/users/register?username={username}";
 
@@ -35,7 +35,7 @@ namespace ChatClient.Views
                 {
                     await http.PostAsync(url, null);
 
-                    // Открыть окно выбора подписок
+                    
                     var subWindow = new SubscriptionWindow(username);
                     subWindow.SubscriptionsConfirmed += (finalUsername) =>
                     {
@@ -45,7 +45,6 @@ namespace ChatClient.Views
                 }
                 catch (Exception ex)
                 {
-                    //await MessageBus.Show(this, $"Ошибка подключения к серверу:\n{ex.Message}", "Ошибка", MessageBox.MessageBoxButtons.Ok);
                 }
             }
         }

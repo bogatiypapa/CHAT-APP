@@ -45,7 +45,7 @@ public class ChatHub : Hub
 
     public async Task SendMessage(string from, string to, string message)
     {
-        // Взаимная подписка обязательна
+        // Взаимная подписка
         var fromSubs = _userService.GetSubscriptionsOf(from);
         var toSubs = _userService.GetSubscriptionsOf(to);
 
@@ -59,7 +59,6 @@ public class ChatHub : Hub
         }
         else
         {
-            // Можно логировать или сообщать отправителю об отказе
             Console.WriteLine($"Message blocked: {from} is not mutually subscribed with {to}");
         }
     }

@@ -13,24 +13,24 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatClient
-build_property.ProjectDir = /Users/hug/VSC_projects/ChatSolution1.51/ChatClient/
+build_property.ProjectDir = /Users/hug/VSC_projects/Chat/ChatClient/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/App.axaml]
+[/Users/hug/VSC_projects/Chat/ChatClient/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/MainWindow.axaml]
+[/Users/hug/VSC_projects/Chat/ChatClient/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/Views/AdminView.axaml]
+[/Users/hug/VSC_projects/Chat/ChatClient/Views/AdminView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/Views/ChatView.axaml]
+[/Users/hug/VSC_projects/Chat/ChatClient/Views/ChatView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/Views/LoginWindowView.axaml]
+[/Users/hug/VSC_projects/Chat/ChatClient/Views/LoginWindowView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/hug/VSC_projects/ChatSolution1.51/ChatClient/Views/SubscriptionWindow.axaml]
+[/Users/hug/VSC_projects/Chat/ChatClient/Views/SubscriptionWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
