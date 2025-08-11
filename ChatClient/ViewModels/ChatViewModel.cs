@@ -45,10 +45,7 @@ namespace ChatClient.ViewModels
         public ChatViewModel(string username)
         {
             RefreshSubscriptionsCommand = ReactiveCommand.CreateFromTask(RefreshSubscriptionsAsync);
-
-            Console.WriteLine($"ChatViewModel ctor, username: {username}");
             _username = username;
-
             SendCommand = ReactiveCommand.CreateFromTask(SendMessageAsync);
 
             _connection = new HubConnectionBuilder()
@@ -118,7 +115,6 @@ namespace ChatClient.ViewModels
             try
             {
                 await _connection.InvokeAsync("Register", _username);
-                Console.WriteLine("Refreshed subscriptions via re-register");
             }
             catch (Exception ex)
             {
